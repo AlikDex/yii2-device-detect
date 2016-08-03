@@ -5,7 +5,8 @@ namespace alikdex\devicedetect;
 use Yii;
 use Detection\MobileDetect;
 
-class DeviceDetect extends \yii\base\Component {
+class DeviceDetect extends \yii\base\Component
+{
 
 	private $_mobileDetect;
 
