@@ -10,10 +10,10 @@ class DeviceDetect extends \yii\base\Component {
 	private $_mobileDetect;
 
 	// Automatically set view parameters based on device type
-	public $setParams = true;
+	public $setParams = false;
 
 	// Automatically set alias parameters based on device type
-	public $setAlias = true;
+	public $setAlias = false;
 
 	public function __call($name, $parameters) {
 		return call_user_func_array(
