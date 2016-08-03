@@ -1,0 +1,22 @@
+{
+	"name": "alikdex/yii2-device-detect",
+	"description": "Yii2 extension for Mobile-Detect library",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","device","detect","mobile","phone","tablet","desktop"],
+	"license": "MIT license",
+	"authors": [
+		{
+			"name": "Alik Dexor",
+			"email": "alikdex@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"alikdex\\devicedetect\\": ""
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"mobiledetect/mobiledetectlib": "~2.8"
+	}
+}
